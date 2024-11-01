@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesManager.API", "GamesManager.API\GamesManager.API.csproj", "{76ED7F42-9CAE-4023-B3CC-C8D56B06AB76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4010329D-69C9-4D7A-A989-E28504B8436E} = {4010329D-69C9-4D7A-A989-E28504B8436E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesManager.Domain", "GamesManager.Domain\GamesManager.Domain.csproj", "{4010329D-69C9-4D7A-A989-E28504B8436E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76ED7F42-9CAE-4023-B3CC-C8D56B06AB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ED7F42-9CAE-4023-B3CC-C8D56B06AB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ED7F42-9CAE-4023-B3CC-C8D56B06AB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ED7F42-9CAE-4023-B3CC-C8D56B06AB76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4010329D-69C9-4D7A-A989-E28504B8436E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4010329D-69C9-4D7A-A989-E28504B8436E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4010329D-69C9-4D7A-A989-E28504B8436E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4010329D-69C9-4D7A-A989-E28504B8436E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03FAF9C-A8BA-4618-AED6-6E4F6D2E4B42}
+	EndGlobalSection
+EndGlobal
